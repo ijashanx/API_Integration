@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // ======== CONFIG ========
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const YOUR_EMAIL = "jashanpreet1522.be23@chitkara.edu.in";
 
 // -------- GET /health ----------
